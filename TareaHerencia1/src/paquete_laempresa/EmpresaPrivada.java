@@ -14,5 +14,20 @@ public class EmpresaPrivada {
 
     private int ventas_mensual_fijo;
     private int numero_sucursales;
+    
+    public void setVentasMensualFijo(int ventas_m_f){
+        ventas_mensual_fijo = ventas_m_f;
+    }
+    public int getVentasMensualFijo(){
+        return ventas_mensual_fijo;
+    }
+     public void setNumeroVentas(int num_s){
+        numero_sucursales=num_s;
+    }
+    public int getNumeroVentas(){
+        return numero_sucursales;
+    }
+    
+    
 
 }
